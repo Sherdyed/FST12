@@ -1,0 +1,44 @@
+GUI - Graphical user Interface > navigating using Icons Buttons & Menus
+CLI -  Commandline Interface > Navigating using commands or codes
+
+"" - use to declare the name
+mkdir - make directory
+cd - change directory name
+rmdir - Remove directory
+touch - make new file
+rm - Remove file
+pwd - Present Working Directory
+ls - list to know the list of on the currect directory
+.. - to return from previews place/ go back one directory
+
+
+. - present directory 
+
+
+GUI - Graphical User Interface - Icons/Buttons/Menus
+CLI - Command-Line Interface - Text-based
+
+
+
+
+
+# Make directory
+mkdir "directory name"
+
+# Remove directory
+rmdir "directory name"
+
+# Change directory
+cd "directory name"
+
+# Make a file
+touch "file name"
+
+# Remove file
+rm "file name"
+
+# Present Working Directory
+pwd
+
+# List command 
+ls
