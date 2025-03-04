@@ -43,13 +43,34 @@ git log
 # Check commit history (summarized)
 git log --oneline
 
+three stage architechture
+
 git branch -a
 feature-branch
 git branch feature-branch
 git checkout feature-branch
 
+# Confirm connection to remote repository 
+git remote -v
+
+# Add a remote to the local repository 
+git remote add origin "repository-url"
+
+# Set the branch to main
+git branch -M main 
+
+# Push commits to remote repository (initial push)
+git push -u origin main
+
+# Push commits to remote repostory 
+git push
 
 
+# first time uploading repository
+git remote add origin ""Repository URL""
+    git remote add origin https://github.com/Sherdyed/FST12.git
+git branch -M main
+git push -u origin main
 
 
 
