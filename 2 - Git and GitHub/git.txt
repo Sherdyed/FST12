@@ -13,8 +13,7 @@ git config --global user.email "email"
 # Checking git username and email
 git config user.name
     
-git config user.email
-    
+git config user.email    
 
 # Check the status
 git status 
@@ -27,7 +26,16 @@ git add "file_name"
 git add .
     =adding all 
 
+# Commit files
+git commit -m "description of your commit"
 
+# Legends for Git
+U - Untracked
+A - Added
+M - Modified
+D - Deleted
+
+git log
 
 git add 
     = adding file to staging area
