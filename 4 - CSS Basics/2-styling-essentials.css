@@ -1,0 +1,229 @@
+#text-styling{
+    font-family: "Arial", Courier;
+
+    /* Font Weight */
+    /* Keyword Values */
+    font-weight: normal; /* Default */
+    font-weight: bold;
+    font-weight: lighter;
+    font-weight: bolder;
+
+    /* Numeric Values */
+    font-weight: 100; 
+    font-weight: 200; 
+    font-weight: 300; 
+    font-weight: 400; /* Default */
+    font-weight: 500; 
+    font-weight: 600;
+    font-weight: 700;
+    font-weight: 800;
+    font-weight: 900;
+    font-weight: 950;
+
+    /* Font Style */
+    font-style: italic;
+    font-style: oblique;
+    font-style: normal;
+
+    /* Text Align */
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    text-align: center;
+
+    /* Line Height */
+    line-height: normal;
+    line-height: 50px;
+    line-height: 1.5;
+    line-height: 75%;
+
+    /* Letter Spacing */
+    letter-spacing: normal;
+    letter-spacing: 1px;
+    letter-spacing: 5px;
+
+
+}
+
+#text-decoration{
+    /* text decoration line */
+    text-decoration: none;  /* Default */
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+
+     /* Text Decoration Line */
+     text-decoration-style: solid; /* Default */
+     text-decoration-style: double;
+     text-decoration-style: dotted;
+     text-decoration-style: dashed;
+     text-decoration-style: wavy;
+     
+     /* Text Decoration Color & Thickness */
+     text-decoration-color: blueviolet;
+     text-decoration-thickness: 2px;
+
+     /* Combination */
+     text-decoration: underline dotted orangered 5px;
+     text-decoration: overline underline line-through;
+}
+
+#colors{
+    color: oldlace;
+    background-color: cornflowerblue;
+    
+    /* RGB */
+    /* rgb(red, green, blue) 0 lowest -255 highest */
+    /* rgb(255, 255, 255) */
+    color: rgb(255, 255, 255);
+    color: rgba(96, 78, 184);
+
+    /* rgba(red, green, blue, alpha) 0 lowest -255 highest */
+    /* alpha - opacity 0 - transparent 1 - opaque */
+    background-color: rgba(28, 115, 40, 0.701);
+
+    /* Hexadecimal */
+    /* 0 - 9 */
+    /* A - 10, B - 11, C - 12, D - 13, E - 14, F - 15 */
+    /* #RRGGBB */
+    color: #0011ff30;
+
+    /* #RRGGBBAA - red, green, blue, alpha */
+    background-color: #0000ff99;
+
+
+}
+
+#absolute-unit-px{
+    font-size: 25px;
+    
+}
+
+#relative-unit-em{
+    font-size: 2em;
+}
+
+#relative-unit-rem{
+    font-size: 3rem;
+
+}
+
+
+
+
+
+/* __________________________ZOOM______________________________________ */
+
+#text-styling2{
+    font-family: "sans-serif", Courier;
+
+    /* Font Weight */
+    /* Keyword Values */
+    font-weight: normal; /* Default */
+    font-weight: bold;
+    font-weight: bolder;
+    font-weight: lighter;
+
+    /* Numeric Values */
+    font-weight: 100; 
+    font-weight: 200; 
+    font-weight: 300; 
+    font-weight: 500; 
+    font-weight: 600;
+    font-weight: 700;
+    font-weight: 800;
+    font-weight: 900;
+    font-weight: 950;
+    font-weight: 400; /* Default */
+
+    /* Font Style */
+    font-style: normal; /* Default */
+    font-style: oblique;
+    font-style: italic;
+
+        /* Text Align */
+    text-align: left; /* Default */
+    text-align: right;
+    text-align: justify;
+    text-align: center;
+
+        /* Line Height */
+    line-height: normal; /* Default */
+    line-height: 1.5;
+    line-height: 50%;
+    line-height: 100px;
+
+        /* Letter Spacing */
+    letter-spacing: normal; /* Default */
+    letter-spacing: -10px;
+    letter-spacing: 10px;
+
+
+}
+
+
+#text-decoration2{
+    /* Text Decoration Line */
+    text-decoration-line: none; /* Default */
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+    text-decoration-line: overline;
+
+    /* Text Decoration Style */
+    text-decoration-style: solid; /* Default */
+    text-decoration-style: double; 
+    text-decoration-style: dotted; 
+    text-decoration-style: dashed; 
+    text-decoration-style: wavy;
+
+    /* Text Decoration Color & Thickness */
+    text-decoration-color: green;
+    text-decoration-thickness: 3px;    
+
+
+    /* Combination */
+    text-decoration: underline dotted red 5px;
+    text-decoration: overline underline line-through;
+
+   
+}
+
+#colors2{
+    /* Color Names */
+    color: red;
+    background-color: black;
+
+    /* RGB */
+    /* rgb(red, green, blue) 0 lowest -255 highest */
+    color: rgb(255, 0,0);
+
+    /* RGB */
+    /* rgb(red, green, blue) 0 lowest -255 highest */
+    color: rgb(255, 0,0);
+
+    /* rgba(red, green, blue, alpha) 0 lowest -255 highest */
+    /* alpha - opacity 0 - transparent 1 - opaque */
+    background-color: rgba(0, 255, 255, 0.5);
+
+    /* Hexadecimal */
+    /* 0 - 9 */
+    /* A - 10, B - 11, C - 12, D - 13, E - 14, F - 15 */
+    /* #RRGGBB */
+    color: #ff0000;
+
+        /* #RRGGBBAA - red, green, blue, alpha */
+        background-color: #0000ff99;
+}
+
+
+#absolute-unit-px2{
+    font-size: 10px;
+}
+
+#relative-unit-em2{
+    font-size: 3em;
+}
+
+#relative-unit-rem2{
+    font-size: 2rem;
+}

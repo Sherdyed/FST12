@@ -1,0 +1,115 @@
+/* Element Selector */
+span{
+    color: brown;
+    background-color: yellow;
+}
+
+/* Class Selector */
+.intro-paragraphs{
+    color: tomato;
+    background-color: blueviolet;
+}
+
+/* ID Selector */
+#main-heading{
+    color: rgb(0, 0, 0);
+    background-color: orchid;
+}
+
+/* Universal Selector */
+*{
+    font-family: "Tahoma";
+}
+
+/* Grouping Selector */
+h1, h2, .about-content{
+    color: chocolate;
+    font-style: oblique;
+}
+
+/* Descendant Selector */
+.article-container p{
+    color: indigo;
+}
+
+a:link{
+    color: blue;
+
+}
+a:hover{
+    background-color: brown;
+}
+a:active{
+    font-family: "Courier";
+}
+a:visited{
+    color: red;
+
+
+}
+
+/* ===================ZOOM========================= */
+
+
+
+/* Element Selector */
+span2{
+    color: white;
+    background-color: black;
+}
+
+/* Class Selector */
+.intro-paragraphs2{
+    color: white;
+    background-color: red;
+}
+
+/* stion is it possible that we can do 
+p{
+.intro-paragraphs{
+    color: white;
+    background-color: red;
+}
+} 
+The Correct call
+p,.intro-paragraphs{
+    color: white;
+    background-color: red;
+}
+
+*/
+
+/* ID Selector */
+#main-heading2{
+    color: white;
+    background-color: blue;
+}
+
+/* Universal Selector */
+*2{
+    font-family: "Arial";
+}
+
+/* Grouping Selector */
+h12, h22, .about-content2{
+    color: orange;
+}
+
+/* Descendant Selector */
+.article-container2 p2{
+    color: darkgreen;
+}
+
+/* Pseudo-classes */
+a:link2{
+    color: blue;
+}
+a:hover2{
+       background-color: black;
+}
+ a:active2{
+       font-size: 30px;
+}
+a:visited2{
+       color: purple;
+}
