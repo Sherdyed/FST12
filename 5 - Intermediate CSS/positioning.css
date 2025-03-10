@@ -1,0 +1,35 @@
+#relative{
+    color: beige;
+    background-color: brown;
+    position: relative;
+    /* Access: top, left, bottom, right */
+    bottom: 10px;
+    right: 10x;
+}
+
+#absolute{
+    color: blanchedalmond;
+    background-color: black;
+    position: absolute;
+        /* Access: top, left, bottom, right */
+    top: 0px;
+    left: 20px;
+}
+
+#fixed{
+    color: blue;
+    background-color: aquamarine;
+    position: fixed;
+    /* Access: top, left, bottom, right */
+    bottom: 5px;
+    left: 5px;
+}
+
+#sticky{ /* can be use for menus*/
+    color: chartreuse;
+    background-color: chocolate;
+    position: sticky;
+    /* Access: top, left, bottom, right */
+    top: 0%;
+    /* but make sure the elemet can stick to the stick position */
+}
